@@ -4,9 +4,8 @@ export function Hero() {
       <div
         className="min-h-[85vh] bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop')",
-        }}
+             backgroundImage: "url('/images/hero3.jpg')",
+            }}
       >
         <div className="min-h-[85vh] bg-black/50">
           <div className="mx-auto flex max-w-7xl items-center px-6 py-24">
