@@ -118,11 +118,14 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
-exports.Prisma.PostScalarFieldEnum = {
+exports.Prisma.InquiryScalarFieldEnum = {
   id: 'id',
-  name: 'name',
-  createdAt: 'createdAt',
-  updatedAt: 'updatedAt'
+  firstName: 'firstName',
+  lastName: 'lastName',
+  email: 'email',
+  subject: 'subject',
+  message: 'message',
+  createdAt: 'createdAt'
 };
 
 exports.Prisma.SortOrder = {
@@ -132,7 +135,7 @@ exports.Prisma.SortOrder = {
 
 
 exports.Prisma.ModelName = {
-  Post: 'Post'
+  Inquiry: 'Inquiry'
 };
 
 /**

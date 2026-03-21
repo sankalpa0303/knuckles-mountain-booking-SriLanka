@@ -11,11 +11,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Post {
-  id        Int      @id @default(autoincrement())
-  name      String
+model Inquiry {
+  id        String   @id @default(cuid())
+  firstName String
+  lastName  String
+  email     String
+  subject   String
+  message   String
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@index([name])
 }
