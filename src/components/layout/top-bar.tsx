@@ -7,11 +7,11 @@ export function TopBar() {
         <div className="flex flex-wrap items-center gap-4">
           <span className="flex items-center gap-2">
             <Phone size={16} />
-            +94 77 123 4567
+            +94 75 930 7606
           </span>
           <span className="flex items-center gap-2">
             <Mail size={16} />
-            info@knucklesbooking.com
+            info@KnucklesExplorer.com
           </span>
         </div>
         <p className="text-emerald-100">
