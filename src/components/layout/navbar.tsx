@@ -26,7 +26,7 @@ export function Navbar() {
           href="#contact"
           className="rounded-xl bg-emerald-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-800"
         >
-          Inquiry
+          BOOK NOW
         </a>
       </div>
     </header>
